@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: opx;
+    text-align:center;
+    background-color: antiquewhite;
+    color: black;
+    background-image: url(nature.jpg);
+    text-decoration: underline;
+}
+.Sign-Up{
+    width:300px;
+    padding: 20px;
+    text-align: center;
+    background:rgb(211, 207, 207);
+    opacity:90%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    overflow:hidden;
+    border-radius:5px;
+}
+.Sign-Up input{
+    display: block;
+    width:100%;
+    padding-left:10px;
+    height: 44px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+.text{
+    margin:10px 0px;
+    border-radius: 5px;
+}
+.btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: blue;
+    color: black;
+    border-radius: 40px;
+    cursor:pointer;
+    transition: 0.8s;
+}
+.btn:hover{
+    transform: scale(0.9);
+}
